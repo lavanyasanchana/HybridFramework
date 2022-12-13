@@ -22,8 +22,8 @@ public class CommonFunctions {
 	{
 		StartBrowser.childTest = StartBrowser.parentTest.createNode("Login to SauceDemo application");
 		ad.navigateToApplication("https://www.saucedemo.com/");
-		ad.type(LoginPage.txtuserName, "standard_user", "UserName textbox");
-		ad.type(LoginPage.txtPassword, "secret_sauce", "Password textbox");
+		ad.type(LoginPage.txtuserName, "samplee@gmail.com", "UserName textbox");
+		ad.type(LoginPage.txtPassword, "lavanya123", "Password textbox");
 		ad.click(LoginPage.btnLogin, "Login Button");
 	}
 	
